@@ -41,8 +41,8 @@ export default function Tasklist() {
       <ul>
         {
           eidt ? 
-          <button onClick={handleAddTask} className="bg-blue-500 text-white px-4 py-2 rounded mb-4">Add Task</button>:
-          <button onClick={handleAddTask} className="bg-blue-500 text-white px-4 py-2 rounded mb-4">welrkjwe</button>
+          
+        '' :<button onClick={handleAddTask} className="bg-blue-500 text-white px-4 py-2 rounded mb-4">Add Task</button>
         }
         
         {tasks.map(task => (
