@@ -58,7 +58,7 @@ export default function Tasklist() {
         
         {tasks.map(task => (
           <li key={task.id} className="flex  items-center mb-2">
-            <span className='border border-zinc-900 w-[10vw] px-4 py-2 rounded ml-2'>{task.details}</span>
+            <span className='border border-zinc-900 w-[50vw] sm:w-[10vw] px-4 py-2 rounded ml-2'>{task.details}</span>
             <button onClick={() => handleUpdateTask(task.id)} className="bg-yellow-500 text-white px-4 py-2 rounded ml-2">Update</button>
             <button onClick={() => handleDeleteTask(task.id)} className="bg-red-500 text-white px-4 py-2 rounded ml-2">Delete</button>
             
